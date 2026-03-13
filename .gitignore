@@ -1,0 +1,28 @@
+# Rust / Anchor
+target/
+**/*.rs.bk
+Cargo.lock
+.anchor/
+.DS_Store
+test-ledger/
+
+# Node
+node_modules/
+dist/
+*.log
+.env
+.env.local
+
+# Foundry
+out/
+cache/
+broadcast/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Build artifacts
+*.so
+*.json.bak

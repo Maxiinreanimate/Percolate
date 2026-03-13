@@ -1,0 +1,21 @@
+{
+  "name": "percolate",
+  "version": "0.1.0",
+  "description": "Multichain permissionless perpetual futures DEX",
+  "private": true,
+  "workspaces": [
+    "sdk",
+    "cranker"
+  ],
+  "scripts": {
+    "build:sdk": "cd sdk && npm run build",
+    "build:cranker": "cd cranker && npm run build",
+    "build:solana": "cd solana && anchor build",
+    "build:evm": "cd evm && forge build",
+    "build:all": "npm run build:solana && npm run build:evm && npm run build:sdk && npm run build:cranker",
+    "test:solana": "cd solana && anchor test",
+    "test:evm": "cd evm && forge test -vvv",
+    "test:all": "npm run test:solana && npm run test:evm"
+  },
+  "license": "Apache-2.0"
+}

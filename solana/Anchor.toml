@@ -1,0 +1,19 @@
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+percolate = "PercoLat3MultichainDexProtocol1111111111111"
+
+[programs.mainnet]
+percolate = "PercoLat3MultichainDexProtocol1111111111111"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Mainnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

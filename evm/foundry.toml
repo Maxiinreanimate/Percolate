@@ -1,0 +1,18 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc = "0.8.23"
+optimizer = true
+optimizer_runs = 1000000
+via_ir = true
+fuzz = { runs = 10000 }
+invariant = { runs = 1000, depth = 100 }
+
+[rpc_endpoints]
+mainnet = "${ETH_RPC_URL}"
+base = "${BASE_RPC_URL}"
+arbitrum = "${ARBITRUM_RPC_URL}"
+
+[etherscan]
+mainnet = { key = "${ETHERSCAN_KEY}" }

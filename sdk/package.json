@@ -1,0 +1,29 @@
+{
+  "name": "@percolate/sdk",
+  "version": "0.1.0",
+  "description": "Multichain TypeScript SDK for the Percolate perpetual futures DEX",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.0",
+    "@solana/web3.js": "^1.95.0",
+    "@solana/spl-token": "^0.4.0",
+    "ethers": "^6.13.0",
+    "viem": "^2.21.0",
+    "bn.js": "^5.2.1",
+    "decimal.js": "^10.4.3"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.5",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.4.0"
+  }
+}

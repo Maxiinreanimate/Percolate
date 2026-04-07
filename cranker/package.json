@@ -1,0 +1,23 @@
+{
+  "name": "@percolate/cranker",
+  "version": "0.1.0",
+  "description": "Permissionless keeper bots for Percolate. Runs liquidation, funding, trigger order, AMM peg, and adaptive k loops across all configured chains in parallel.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "dependencies": {
+    "@percolate/sdk": "^0.1.0",
+    "dotenv": "^16.4.0",
+    "pino": "^9.0.0",
+    "pino-pretty": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.0"
+  }
+}

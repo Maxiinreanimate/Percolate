@@ -1,8 +1,8 @@
 # Percolate
 
-**The first and only multichain perpetual futures DEX. Any token. Any leverage. Fully permissionless.**
+**The first and only multichain perpetual futures DEX. Any chain. Any token. Fully permissionless.**
 
-Percolate is a permissionless perpetual futures protocol built on [Anatoly Yakovenko's Percolator risk engine](https://github.com/aeyakovenko/percolator). It runs natively on **Solana** and **EVM** chains, with cross-margin, multi-collateral, and adaptive liquidity from day one.
+Percolate is a permissionless perpetual futures protocol built on [Toly's Percolator risk engine](https://github.com/aeyakovenko/percolator). It runs natively on **Solana** and **EVM** chains, with cross-margin, multi-collateral, and adaptive liquidity from day one.
 
 ## Why Percolate
 

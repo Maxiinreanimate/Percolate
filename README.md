@@ -180,15 +180,6 @@ npm start
 
 Runs liquidation, funding, trigger order, AMM peg update, and adaptive-k loops across every configured chain in parallel. Permissionless — anyone can run a cranker for incentives.
 
-## Deployment
-
-| Chain | Address |
-|-------|---------|
-| Solana mainnet | TBD |
-| Ethereum mainnet | TBD |
-| Base mainnet | TBD |
-| Arbitrum mainnet | TBD |
-
 ## License
 
 Apache 2.0. See [LICENSE](./LICENSE).
